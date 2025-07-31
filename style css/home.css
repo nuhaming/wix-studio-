@@ -1,0 +1,265 @@
+*/{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{
+    margin: 15px;
+    position: inherit;
+}
+.header{
+    margin-top: 15px;
+}
+.header1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+.romiii{
+    padding-left: 50px;
+    width: 220px;
+}
+.menu{
+    width: 600px;
+    float: right;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+    transition: 0.6s ease;
+}
+.contact{
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    background-color: rgb(227, 255, 0);
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease ;
+    text-decoration: none;
+}
+.main2{
+    background-image: linear-gradient(rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(../image/1\ img.avif);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    padding: 250px;
+}
+.build{
+    font-size: 80px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.quality{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.our{
+    font-size: 18px;
+    padding-left: 40px;
+}
+.diverse{
+    font-size: 45px;
+    padding-left: 25px;
+}
+.view{
+    text-decoration: none;
+    color: white;
+}
+/* .main2 .yellow{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%);
+    background-color:  rgb(227, 255, 0);
+    padding-top: 250px;
+    width: 150px;
+} */
+.learn{
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+}
+.img1{
+    padding: 30px;
+    width: 450px;
+    height: 300px;
+}
+.img2{
+    padding: 30px;
+    padding-left: 10px;
+    width: 450px;
+    height: 300px;
+}
+.img3{
+    padding: 30px;
+    padding-left: 10px;
+    width: 450px;
+    height: 300px;
+}
+.aboutromano{
+    background-image: linear-gradient(rgba(0,0,0,0.4)70%, rgba(0,0,0,0.4)70%), url(../image/home-5.avif);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    padding: 250px;
+}
+.aboutromano{
+    text-align: left;
+    padding-left: 80px;
+    font-weight: lighter;
+}
+.abo{
+    padding-top: 10px;
+    margin: 10px;
+}
+.romo{
+    font-size: 50px;
+    margin: 10px;
+}
+.this{
+    font-size: 25px;
+    margin: 10px;
+    
+}
+.learnt{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+}
+.logos{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 100px;
+}
+.late{
+    font-size: 50px;
+    padding-left: 30px;
+}
+.moreee{
+    padding-left: 50px;
+    font-size: 18px;
+}
+.disco{
+    display: flex; 
+}
+.im1{
+    padding-top: 10px;
+    padding: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+    width: 460px;
+    height: 350px;
+}
+.im2{
+    padding-top: 10px;
+    padding: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+    width: 460px;
+    height: 350px;
+}
+.im3{
+    padding-top: 10px;
+    padding: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+    width: 460px;
+    height: 350px;
+}
+.get{
+    background-color: rgb(227, 255, 0);
+    padding: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+.for{
+    font-size: 35px;
+}
+.contact1{
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: black;
+    color: rgb(227, 255, 0) ;
+    
+}
+.contact1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease ;
+}
+.footer{
+    background-color: whitesmoke;
+}
+.mainfoot{
+    display: flex;
+    padding: 70px;
+    font-size: 18px;
+    list-style: none;
+    margin: auto;
+    line-height: 2.0;
+}
+.romanio img{
+    width: 180px;
+}
+.head{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.navigator{
+    padding-right: 200px;
+}
+.term{
+    list-style: none;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.by{
+    text-align: right;
+}
+.built{
+    text-align: center;
+    font-size: 18px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.wixlink{
+    color: black;
+}
