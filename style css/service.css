@@ -1,0 +1,154 @@
+*/{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    margin: 15px;
+    position: inherit;
+}
+.header{
+    margin-top: 15px;
+}
+.header1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+.romiii{
+    padding-left: 50px;
+    width: 220px;
+}
+.menu{
+    width: 600px;
+    float: right;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+    transition: 0.6s ease;
+}
+.contact{
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    background-color: rgb(227, 255, 0);
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease ;
+    text-decoration: none;
+}
+.ourserv{
+    display: flex;
+}
+.servimg img{
+    width: 800px;
+    height: 800px;
+}
+.solution{
+    padding: 140px;
+    padding-left: 30px;
+    font-size: 35px;
+    list-style: none;
+    line-height: 0;
+}
+.ser{
+    font-size: 18px;
+}
+.diverse{
+    font-size: 50px;
+    line-height: 0.9;
+}
+.get{
+    background-color: rgb(227, 255, 0);
+    padding: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+.for{
+    font-size: 35px;
+}
+.contact1{
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: black;
+    color: rgb(227, 255, 0) ;
+    
+}
+.contact1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease ;
+}
+.footer{
+    background-color: whitesmoke;
+}
+.mainfoot{
+    display: flex;
+    padding: 70px;
+    font-size: 18px;
+    list-style: none;
+    margin: auto;
+    line-height: 2.0;
+}
+.romanio img{
+    width: 180px;
+}
+.head{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.navigator{
+    padding-right: 200px;
+}
+.term{
+    list-style: none;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.by{
+    text-align: right;
+}
+.built{
+    text-align: center;
+    font-size: 18px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.wixlink{
+    color: black;
+}
