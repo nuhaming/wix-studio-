@@ -22,15 +22,11 @@ body {
   z-index: 1000;
 }
 
-/* Container */
 .container {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
 }
-
-/* Main todo app box */
-/* NO box-shadow here */
 .todo-app {
   width: 100%;
   background: #fff;
@@ -43,8 +39,6 @@ body {
   font-size: 24px;
   margin-bottom: 20px;
 }
-
-/* Input row */
 .row {
   display: flex;
   align-items: center;
@@ -65,7 +59,6 @@ body {
   font-size: 16px;
 }
 
-/* Add button */
 button {
   background-color: #4c47e0;
   color: #fff;
@@ -84,18 +77,14 @@ button img {
   width: 20px;
   height: 20px;
 }
-
-/* List container */
 #list-container {
   list-style: none;
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-
-/* Each list item */
 #list-container li {
-  position: relative; /* for delete button absolute */
+  position: relative; 
   display: flex;
   align-items: center;
   padding: 10px;
@@ -111,7 +100,6 @@ button img {
   background-color: #f0f0f0;
 }
 
-/* Checkbox for task */
 .task-checkbox {
   width: 18px;
   height: 18px;
@@ -119,19 +107,15 @@ button img {
   cursor: pointer;
 }
 
-/* Task text style */
 .task-text {
   flex: 1;
   word-break: break-word;
 }
 
-/* When checkbox is checked, strike through the text */
 .task-checkbox:checked + .task-text {
   text-decoration: line-through;
   color: #888;
 }
-
-/* Delete button */
 .delete-btn {
   position: absolute;
   right: 5px;
@@ -153,7 +137,6 @@ button img {
   color: #e74c3c;
 }
 
-/* Smooth transitions */
 #list-container li,
 .task-checkbox,
 .delete-btn {
