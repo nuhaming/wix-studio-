@@ -14,7 +14,7 @@ function addTask() {
     taskText.textContent = inputBox.value;
     taskText.classList.add("task-text");
     let deleteBtn = document.createElement("span");
-    deleteBtn.innerHTML = "\u00d7";  // × symbol
+    deleteBtn.innerHTML = "\u00d7";  
     deleteBtn.classList.add("delete-btn");
 
     li.appendChild(checkbox);
